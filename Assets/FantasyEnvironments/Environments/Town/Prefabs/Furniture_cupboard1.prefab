@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33292825151307736}
   - component: {fileID: 23216166931271728}
   - component: {fileID: 65009537836758508}
+  - component: {fileID: 1804761258485367148}
   m_Layer: 0
   m_Name: Furniture_cupboard1
   m_TagString: Untagged
@@ -112,3 +113,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.5150757, y: 2.2298565, z: 0.893693}
   m_Center: {x: -0.0000076293945, y: 1.1149282, z: 0.000000014901161}
+--- !u!114 &1804761258485367148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693222072745228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7c7fe17904f0f438cc9b3a07c74a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableObject
+  playerInRange: 0
+  ItemName: "T\u1EE7"

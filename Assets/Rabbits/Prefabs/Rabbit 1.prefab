@@ -733,6 +733,9 @@ GameObject:
   - component: {fileID: -8484852176760951215}
   - component: {fileID: 6000740564174738544}
   - component: {fileID: 5053143331091845290}
+  - component: {fileID: 1759888912031430244}
+  - component: {fileID: 1437698289386995064}
+  - component: {fileID: -1963406814893563257}
   m_Layer: 0
   m_Name: Rabbit 1
   m_TagString: Untagged
@@ -838,7 +841,63 @@ MonoBehaviour:
   m_GameObject: {fileID: 1588090451174212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d11ef8b5c5c0ea4cbc09b66bccc3122, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a7c7fe17904f0f438cc9b3a07c74a6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AI_Movement
+  playerInRange: 0
+  ItemName: "Th\u1ECF"
+--- !u!65 &1759888912031430244
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588090451174212}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.51362455, y: 0.7338858, z: 1.0000002}
+  m_Center: {x: 0.009135939, y: 0.36390352, z: 0.0577116}
+--- !u!65 &1437698289386995064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588090451174212}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.376689, y: 0.34273016, z: 2.0607698}
+  m_Center: {x: -0.0023183723, y: 0.16511902, z: 0.06148497}
+--- !u!114 &-1963406814893563257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588090451174212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e1b235048c57c478f09eaff31876bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AI_Movement
   moveSpeed: 1

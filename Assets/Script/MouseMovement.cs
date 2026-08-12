@@ -16,7 +16,7 @@ public class MouseMovement : MonoBehaviour
       Cursor.lockState = CursorLockMode.Locked;
     }
  
-    void Update() // ktra trang thai khung hinh / giay 
+    void Update()
     {
        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
